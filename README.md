@@ -16,9 +16,9 @@
     <a href="https://github.com/meetrshah2112">
       <img src="https://img.shields.io/badge/GitHub-meetrshah2112-101820?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
     </a>
-    <!-- <a href="https://www.linkedin.com/in/meetshah2005/">
+    <a href="https://www.linkedin.com/in/meetshah2005/">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
-    </a> -->
+    </a>
   </p>
 
   <h3>Software Developer · Backend · Full Stack · Data & AI</h3>
