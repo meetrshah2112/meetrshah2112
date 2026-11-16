@@ -1,0 +1,44 @@
+name: Update GitHub Profile Statistics
+
+on:
+  schedule:
+    - cron: "20 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-profile-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Generate repository statistics card
+        uses: cicirello/user-statistician@v1
+        with:
+          colors: dark
+          image-file: images/repos.svg
+          hide-keys: general, contributions, languages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution statistics card
+        uses: cicirello/user-statistician@v1
+        with:
+          colors: dark
+          image-file: images/contribs.svg
+          hide-keys: general, languages, repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate language distribution card
+        uses: cicirello/user-statistician@v1
+        with:
+          colors: dark
+          image-file: images/languages.svg
+          hide-keys: general, contributions, repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
