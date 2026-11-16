@@ -1,7 +1,4 @@
-<!--
-  GitHub Profile README for Meet Shah
-  Repository name: meetrshah2112
--->
+<!-- GitHub Profile README | Meet Shah | Repository: meetrshah2112 -->
 
 <div align="center">  <img
     src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:07111F,45:102A2A,100:9FE870&text=MEET%20SHAH&fontColor=F4F7F2&fontSize=52&fontAlignY=38&desc=Building%20useful%20software%20with%20thoughtful%20engineering&descAlignY=60&descSize=14"
@@ -71,10 +68,13 @@ Languages
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau" />
 </p>GitHub activity
-<div align="center">  <p>
-    <img src="./images/repos.svg" width="49%" alt="Meet Shah's GitHub repository statistics" />
-    <img src="./images/languages.svg" width="49%" alt="Programming language distribution across public repositories" />
-  </p>  <img src="./images/contribs.svg" width="100%" alt="Meet Shah's GitHub contribution statistics" /></div><sub>These SVG cards are generated automatically by GitHub Actions and stored in this repository. They refresh daily.</sub>
+<div align="center">  <img
+    src="./images/github-activity.svg"
+    width="100%"
+    alt="Meet Shah's GitHub activity, repository, contribution and language statistics"
+  />
+</div>
+<sub>Statistics are generated automatically by GitHub Actions and refreshed daily.</sub>
 <div align="center">  Build. Learn. Improve. Repeat.
 
   <a href="https://github.com/meetrshah2112">GitHub</a>
